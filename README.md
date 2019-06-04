@@ -1,2 +1,2 @@
 # start
-Squelette de départ pour les projets utilisant Node, Express, Mongo et Svelte
+Squelette de départ pour les projets utilisant Node, Express, Mongo, Svelte, w3-css et fontawesome
