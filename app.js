@@ -8,7 +8,7 @@ var config = require('./config')
 
 
 //Connection BDD
-mongoose.connect(config.DBPATH, {useNewUrlParser: true})
+mongoose.connect(config.DBPATH, {useNewUrlParser: true, useCreateIndex: true})
 
 var app = express()
 var server = require('http').Server(app)
