@@ -1,10 +1,18 @@
 {
   "scripts": {
-    "start": "snowpack dev",
-    "build": "snowpack build",
-    "test": "echo \"This template does not include a test runner by default.\" && exit 1"
+    "dev": "routify -c snowpack:dev",
+    "build": "routify -b && snowpack build",
+    "serve": "nodemon server.js",
+    "snowpack:dev": "snowpack dev"
   },
   "devDependencies": {
+    "@roxi/routify": "^2.10.9",
+    "@snowpack/plugin-svelte": "^3.5.2",
+    "@snowpack/plugin-webpack": "^2.3.0",
     "snowpack": "^3.0.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "svelte": "^3.32.1"
   }
 }
