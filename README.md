@@ -37,7 +37,7 @@ npm run serve
 
 ## Enable secure context
 
-If you want to install certificat to use `https://localhost/8080` you can enable secure context on `snowpack.config.js` :
+If you want to use `https://localhost/8080` you can enable secure context on `snowpack.config.js` :
 
 ```diff
 devOptions: {
