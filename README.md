@@ -31,6 +31,8 @@ npm run dev
 
 ```bash
 npm run build
+
+npm run serve
 ```
 
 ## Enable secure context
