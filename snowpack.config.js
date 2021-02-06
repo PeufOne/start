@@ -21,7 +21,7 @@ module.exports = {
     /* ... */
   },
   devOptions: {
-    secure: true
+    secure: false
   },
   buildOptions: {
     /* ... */

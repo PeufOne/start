@@ -1,5 +1,8 @@
 /* Add CSS styles here! */
 body {
   font-family: sans-serif;
-  background-color: red;
+}
+
+.s-app {
+  height: 100%;
 }
