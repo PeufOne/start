@@ -4,5 +4,17 @@ body {
 }
 
 .s-app {
-  height: 100%;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+}
+
+.theme--light a > button {
+  color: #000!important;
+}
+
+.theme--dark a > button {
+  color: #fff!important;
 }
